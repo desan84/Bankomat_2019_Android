@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D8FF4040"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/spracheTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="@string/spracheTextView"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btnEnglish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spracheTextView"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="55dp"
+        android:text="@string/englishBtn" />
+
+    <Button
+        android:id="@+id/btnDeutsch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnEnglish"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/deutschBtn" />
+
+    <TextView
+        android:id="@+id/sparKasseTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnDeutsch"
+        android:layout_marginTop="400dp"
+        android:background="#708090"
+        android:text="@string/sparKasseTextView"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+</RelativeLayout>
+
+
+

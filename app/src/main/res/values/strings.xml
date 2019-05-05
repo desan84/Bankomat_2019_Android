@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Bankomat_2019_Android</string>
+    <string name="action_settings">Settings</string>
+    <string name="spracheTextView">Bitte wählen Sie Ihre Sprache</string>
+    <string name="englishBtn">Englisch</string>
+    <string name="deutschBtn">Deutsch</string>
+    <string name="sparKasseTextView">Sparkasse 2019</string>
+    <string name="nummerKarteTextView">Sie haben deutsche Sprache gewählt. Ausfüllen Nummer der Karte. Nur 16 Ziffern.</string>
+    <string name="weiterNummerKarteBtn">Weiter</string>
+    <string name="passwortTextView">Bitte geben Sie Ihr Kennwort ein.</string>
+    <string name="operationTextView">Was möchten Sie Operation ausführen ?</string>
+    <string name="geldBtn">Geld abheben</string>
+    <string name="balancBtn">Balance anzeigen</string>
+    <string name="überweisenBtn">Geld auf eine andere Karte überweisen</string>
+    <string name="title_activity_nummer_karte_main">nummer_karte_main</string>
+</resources>

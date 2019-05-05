@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D8FF4040"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewOperation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="@string/operationTextView"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btnGeld"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewOperation"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="55dp"
+        android:text="@string/geldBtn" />
+
+    <Button
+        android:id="@+id/btnBalanc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnGeld"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/balancBtn" />
+
+    <Button
+        android:id="@+id/btnÜberweisung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnBalanc"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/überweisenBtn" />
+
+    <TextView
+        android:id="@+id/sparKasseTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnÜberweisung"
+        android:layout_marginTop="265dp"
+        android:background="#708090"
+        android:gravity="center_horizontal"
+        android:text="@string/sparKasseTextView"
+        android:textSize="30dp" />
+</RelativeLayout>

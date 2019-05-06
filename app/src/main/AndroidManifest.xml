@@ -9,9 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity_passwort_main"></activity>
+        <activity android:name=".Operation"></activity>
+        <activity android:name=".Passwort" />
         <activity
-            android:name=".nummer_karte_main"
+            android:name=".NummerKarte"
             android:label="@string/title_activity_nummer_karte_main"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity

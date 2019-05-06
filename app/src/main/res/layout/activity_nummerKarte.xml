@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="#D8FF4040"
     android:orientation="horizontal"
-    tools:context=".nummer_karte_main">
+    tools:context=".NummerKarte">
 
     <TextView
         android:id="@+id/deutschTextView"
